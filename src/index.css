@@ -2,9 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-.active{
-    color: #1e1b4b;
+.active {
+  color: #1e1b4b;
+  font-weight: 600;
 }
-.redondeo{
-    
+.imagen {
+  border-radius: 50% 50% 12% 12%;
+  padding: 6px;
+  background: #a8c0ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3f2b96,
+    #a8c0ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3f2b96,
+    #a8c0ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.imagen1 {
+  border-radius: 50% 50% 12% 12%;
+}
+.clippath{
+  clip-path: polygon(91% 0, 100% 0, 100% 100%, 69% 100%);
+  background-color: red;
+}
+.animate__animated {
+  animation-duration: 1s;
 }

@@ -5,7 +5,7 @@ export const LayoutPublic = () => {
   return (
     <>
     <Navbar/>
-    <main className="container mt-5" >
+    <main className="container mt-3 min-h-[calc(100vh-7rem)]" >
     <Outlet/>
     </main>
     </>

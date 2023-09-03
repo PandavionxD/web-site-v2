@@ -1,11 +1,9 @@
 import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/img/navbar.webp";
 import { MdDarkMode } from "react-icons/md";
-import { useRef } from "react";
+import { data } from "./data";
 
 export const Navbar = () => {
-  const icon = useRef();
-
   return (
     <nav className=" h-20  bg-indigo-600  w-full  ">
       <div className="container grid gap-5 grid-cols-6 place-content-center text-white w-full h-full  ">
@@ -15,11 +13,15 @@ export const Navbar = () => {
           </Link>
         </picture>
         <div className="col-span-4 flex gap-10 justify-center items-center ">
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/about">Acerca</NavLink>
-          <NavLink to="/services">Servicios</NavLink>
-          <NavLink to="/portfolio">Portafolio</NavLink>
-          <NavLink to="/contact">Contacto</NavLink>
+          {data.map((item) => (
+            <NavLink
+              className="hover:text-indigo-950 font-semibold transition-all duration-300 "
+              key={item.id}
+              to={item.path}
+            >
+              {item.title}
+            </NavLink>
+          ))}
         </div>
         <button className="flex justify-end items-center ">
           <MdDarkMode className="text-2xl" />
