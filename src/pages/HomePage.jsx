@@ -7,15 +7,15 @@ import { Link } from "react-router-dom";
 export const HomePage = () => {
   return (
     <>
-    <div className="h-[calc(100vh-7rem)] w-full mx-auto grid place-content-center gap-3 ">
-      <picture className="w-60 shadow-md overflow-hidden  mx-auto imagen dark:bg-gradient-to-r from-indigo-600 via-purple-900 to-fuchsia-600  ">
+    <div className="min-h-[calc(100vh-7rem)] w-full mx-auto grid place-content-center gap-3 ">
+      <picture className="w-60 shadow-md   mx-auto imagen dark:bg-gradient-to-r from-indigo-600 via-purple-900 to-fuchsia-600  ">
         <img src={logo} alt={logo} className=" object-cover mx-auto imagen1 " />
       </picture>
       <h1 className="text-center text-2xl font-bold dark:text-white ">Alex Daniel</h1>
-      <p className="w-4/5 mx-auto font-light text-gray-600 text-center text-sm ">
+      <p className="w-4/5 mx-auto dark:text-gray-300 font-light text-gray-600 text-center text-sm ">
         Técnico Informático, estudie en SENATI; me encanta la tecnología,
         soporte de equipos informáticos, programación web, redes, etc.
-        <span className="w-full inline-block font-light text-gray-600 text-center text-sm ">
+        <span className="w-full inline-block dark:text-gray-300 font-light text-gray-600 text-center text-sm ">
           Programar, ser autodidácta, cantar, viajar, escuchar música son mi
           pasión.
         </span>

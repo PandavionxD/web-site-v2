@@ -4,12 +4,27 @@ import { MdDarkMode } from "react-icons/md";
 import { data } from "./data";
 import { useUserContext } from "../context/userContext";
 import { BsSun } from "react-icons/bs";
+import { useSnackbar } from "notistack";
 
 export const Navbar = () => {
   const { setDarkToggle, darkToggle } = useUserContext();
+  const { enqueueSnackbar } = useSnackbar();
+  console.log(darkToggle)
+
+  let darkValue = 'LigtMode'
+  if(darkToggle === false) {
+    darkValue = 'DarkMode'
+  }
 
   const toogleDark = () => {
     setDarkToggle(!darkToggle);
+    enqueueSnackbar(`Cambiando el tema : ${darkValue}`, {
+      anchorOrigin: {
+        vertical: "top",
+        horizontal: "right",
+      },
+      variant: "info",
+    });
   };
 
   return (
