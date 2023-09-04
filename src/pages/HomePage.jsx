@@ -12,7 +12,7 @@ export const HomePage = () => {
         <img src={logo} alt={logo} className=" object-cover mx-auto imagen1 " />
       </picture>
       <h1 className="text-center text-2xl font-bold">Alex Daniel</h1>
-      <p className="w-3/5 mx-auto font-light text-gray-600 text-center text-sm ">
+      <p className="w-4/5 mx-auto font-light text-gray-600 text-center text-sm ">
         Técnico Informático, estudie en SENATI; me encanta la tecnología,
         soporte de equipos informáticos, programación web, redes, etc.
         <span className="w-full inline-block font-light text-gray-600 text-center text-sm ">
@@ -20,7 +20,7 @@ export const HomePage = () => {
           pasión.
         </span>
       </p>
-      <div className="flex gap-5 flex-col absolute bottom-5 z-10">
+      <div className="flex gap-5 flex-col absolute bottom-5 z-10 left-3 md:left-10 ">
         <button className="p-2 overflow-hidden bg-gray-200 rounded-md hover:bg-indigo-600 hover:text-white hover:-translate-x-2 transition-all duration-300 " >
           <BsFacebook className="text-sm"  />
         </button>

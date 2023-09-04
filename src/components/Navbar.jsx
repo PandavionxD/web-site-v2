@@ -5,14 +5,14 @@ import { data } from "./data";
 
 export const Navbar = () => {
   return (
-    <nav className=" h-20  bg-indigo-600  w-full  ">
-      <div className="container grid gap-5 grid-cols-6 place-content-center text-white w-full h-full  ">
-        <picture className="">
+    <nav className=" h-20  bg-indigo-600 w-full  ">
+      <div className="container grid grid-cols-6 h-full items-center pl-3 md:pl-0 text-white">
+        <picture className="col-span-1">
           <Link to="/">
             <img src={logo} alt={logo} className="h-10 w-10 rounded-full " />
           </Link>
         </picture>
-        <div className="col-span-4 flex gap-10 justify-center items-center ">
+        <div className="hidden md:flex col-start-2 col-end-6 justify-center gap-5 ">
           {data.map((item) => (
             <NavLink
               className="hover:text-indigo-950 font-semibold transition-all duration-300 "
@@ -23,8 +23,8 @@ export const Navbar = () => {
             </NavLink>
           ))}
         </div>
-        <button className="flex justify-end items-center ">
-          <MdDarkMode className="text-2xl" />
+        <button className="col-start-6 col-end-7 flex justify-end ">
+          <MdDarkMode className="text-2xl mr-3 block md:mr-0" />
         </button>
       </div>
     </nav>
