@@ -35,7 +35,7 @@ export const HomePage = () => {
         <Link to='/contact' className="bg-indigo-600 dark:bg-purple-600 p-3 rounded-lg text-white hover:-translate-y-2 hover:text-indigo-600 dark:hover:text-purple-600 hover:bg-transparent overflow-hidden hover:border-indigo-600 dark:border-purple-600 dark:hover:bg-transparent border transition-all duration-300  ">
           Hablemos
         </Link>
-        <Link to='/portfolio' className="bg-gray-100 p-3 rounded-lg  hover:-translate-y-2 hover:text-gray-bg-gray-100 hover:bg-transparent overflow-hidden dark:hover:text-purple-600 dark:border-purple-600 hover:border-gray-bg-gray-100 border transition-all duration-300  ">
+        <Link to='/portfolio' className="bg-gray-100 p-3 rounded-lg  hover:-translate-y-2 hover:text-indigo-600 hover:bg-transparent hover:border-indigo-600 overflow-hidden dark:hover:text-purple-600 dark:border-purple-600 hover:border-gray-bg-gray-100 border transition-all duration-300  ">
           Trabajos
         </Link>
       </div>
