@@ -10,7 +10,7 @@ export const Navbar = () => {
   const { setDarkToggle, darkToggle } = useUserContext();
   const { enqueueSnackbar } = useSnackbar();
 
-  let darkValue = 'LigtMode'
+  let darkValue = 'LightMode'
   if(darkToggle === false) {
     darkValue = 'DarkMode'
   }
