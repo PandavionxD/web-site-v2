@@ -9,7 +9,6 @@ import { useSnackbar } from "notistack";
 export const Navbar = () => {
   const { setDarkToggle, darkToggle } = useUserContext();
   const { enqueueSnackbar } = useSnackbar();
-  console.log(darkToggle)
 
   let darkValue = 'LigtMode'
   if(darkToggle === false) {
