@@ -50,7 +50,7 @@ export const ServicePage = () => {
           </div>
         ))} */}
         <div
-          className="bg-gray-200 dark:border-white   dark:border p-3 cursor-pointer  rounded-md shadow-md dark:bg-transparent hover:-translate-y-2 transition-all w-full animate__animated animate__fadeInUp duration-300 hover:bg-white hover:border-gray-200 hover:border "
+          className="bg-gray-200 dark:border-white   dark:border p-3 cursor-pointer  rounded-md shadow-md dark:bg-transparent hover:-translate-y-2 transition-all w-full duration-300 hover:bg-white hover:border-gray-200 hover:border "
           onClick={() => setopen(!open)}
         >
           <div className="flex justify-between ">
@@ -68,13 +68,13 @@ export const ServicePage = () => {
               </span>
               <p className="dark:text-white">
                 Brindo soluciones en lo que respecta a equipos Informáticos,
-                Hardware, Software, Programas, repuestos, formateos, reconstrucciones, etc.
+                Hardware, Software, Programas, repuestos, formateos, reconstrucciones,etc.
               </p>
             </div>
           )}
         </div>
         <div
-          className="bg-gray-200 dark:border-white   dark:border p-3 cursor-pointer animate__animated animate__fadeInUp rounded-md shadow-md dark:bg-transparent hover:-translate-y-2 transition-all w-full duration-300 hover:bg-white hover:border-gray-200 hover:border "
+          className="bg-gray-200 dark:border-white   dark:border p-3 cursor-pointer  rounded-md shadow-md dark:bg-transparent hover:-translate-y-2 transition-all w-full duration-300 hover:bg-white hover:border-gray-200 hover:border "
           onClick={() => setopen1(!open1)}
         >
           <div className="flex justify-between ">
@@ -98,7 +98,7 @@ export const ServicePage = () => {
           )}
         </div>
         <div
-          className="bg-gray-200 dark:border-white   dark:border p-3 cursor-pointer  rounded-md shadow-md dark:bg-transparent hover:-translate-y-2 transition-all w-full duration-300 hover:bg-white hover:border-gray-200 hover:border animate__animated animate__fadeInUp"
+          className="bg-gray-200 dark:border-white   dark:border p-3 cursor-pointer  rounded-md shadow-md dark:bg-transparent hover:-translate-y-2 transition-all w-full duration-300 hover:bg-white hover:border-gray-200 hover:border "
           onClick={() => setopen2(!open2)}
         >
           <div className="flex justify-between ">
@@ -122,7 +122,7 @@ export const ServicePage = () => {
           )}
         </div>
         <div
-          className="bg-gray-200 dark:border-white  w-full dark:border p-3 cursor-pointer  rounded-md shadow-md dark:bg-transparent animate__animated animate__fadeInUp h-auto hover:-translate-y-2 transition-all duration-300 hover:bg-white hover:border-gray-200 hover:border "
+          className="bg-gray-200 dark:border-white  w-full dark:border p-3 cursor-pointer  rounded-md shadow-md dark:bg-transparent h-auto hover:-translate-y-2 transition-all duration-300 hover:bg-white hover:border-gray-200 hover:border "
           onClick={() => setopen3(!open3)}
         >
           <div className="flex justify-between ">
