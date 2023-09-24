@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 export const HomePage = () => {
   return (
     <>
-      <div className="min-h-[calc(100vh-7rem)] w-full mx-auto grid place-content-center gap-3 ">
+      <div className="min-h-[calc(100vh-7rem)] w-full mx-auto grid place-content-center gap-3 p-5 ">
         <picture className="w-60 shadow-md   mx-auto imagen dark:bg-gradient-to-r from-indigo-600 via-purple-900 to-fuchsia-600  ">
           <img
             src={logo}

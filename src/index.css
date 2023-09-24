@@ -42,3 +42,16 @@
 .parrafo{
   @apply text-justify font-light text-sm dark:text-white
 }
+.prueba{
+  background-color: blueviolet;
+  color: white;
+}
+
+.contenedor:hover > .icono{
+  background-color: #7c3aed;
+  color: white;
+}
+/* section{
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+} */

@@ -9,8 +9,8 @@ export const FloatingNavbar = () => {
 
   return (
     <>
-      <button onMouseOver={() => sethidden(!hidden)} className="md:hidden  flex bg-indigo-600
-       p-2 transition-all duration-700 rounded-md z-50 dark:bg-purple-600 text-white items-center absolute bottom-5 right-5  "  >
+      <button onMouseOver={() => sethidden(!hidden)}   className="md:hidden  flex bg-indigo-600
+       p-2 transition-all duration-700 rounded-md z-50 dark:bg-purple-600 text-white items-center fixed bottom-5 right-5  "  >
       <AiOutlineMenu />
       </button>
       {hidden && (
