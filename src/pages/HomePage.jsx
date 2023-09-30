@@ -15,7 +15,7 @@ export const HomePage = () => {
             className=" object-cover mx-auto imagen1 "
           />
         </picture>
-        <h1 className="text-center text-2xl font-bold dark:text-white ">
+        <h1 className="text-center  text-indigo-600 text-[2.5rem] font-bold dark:text-purple-600 ">
           Alex Daniel
         </h1>
         <p className="w-4/5 mx-auto dark:text-gray-300 font-light text-gray-600 text-center text-sm ">

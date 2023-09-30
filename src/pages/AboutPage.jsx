@@ -16,9 +16,9 @@ export const AboutPage = () => {
           />
         </picture>
       </div>
-      <div className="md:col-span-8  col-span-12 ">
-        <h1 className="text-2xl text-center text-indigo-600 font-semibold dark:text-white ">
-          Acerca de mi
+      <div className="md:col-span-8 mt-12  col-span-12 ">
+        <h1 className="text-[2rem] dark:text-purple-600 text-center text-indigo-600 font-semibold  ">
+          Acerca de mí
         </h1>
         <div className="animate__animated animate__fadeInUp grid grid-cols-9 mt-3 gap-3 ">
           {AboutData.map((item) => (
