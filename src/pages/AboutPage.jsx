@@ -1,8 +1,9 @@
 import React, { useRef, useState } from "react";
 import imageAbout from "../assets/img/About.webp";
 import { AiOutlineDownload } from "react-icons/ai";
-import cv from "../assets/CV/cv.pdf";
+import cv from "../assets/CV/CV.pdf";
 import { AboutData } from "./AboutData";
+import { AboutItem } from "../components/AboutItem";
 
 export const AboutPage = () => {
   return (
@@ -22,20 +23,7 @@ export const AboutPage = () => {
         </h1>
         <div className="animate__animated animate__fadeInUp grid grid-cols-9 mt-3 gap-3 ">
           {AboutData.map((item) => (
-            <div
-              className="flex col-span-3 flex-col p-3 gap-3 contenedor    justify-center items-center border rounded-md shadow-sm border-indigo-600 dark:border-purple-600  hover:-translate-y-2 transition-all duration-500 cursor-pointer "
-              key={item.id}
-            >
-              <span className="dark:text-white p-2 rounded-md text-2xl icono ">
-                {item.icon}
-              </span>
-              <h3 className="text-indigo-400 font-semibold dark:text-purple-400">
-                {item.title}
-              </h3>
-              <p className="font-extralight dark:text-white text-sm text-center ">
-                {item.description}
-              </p>
-            </div>
+              <AboutItem key={item.id} {...item}   />
           ))}
         </div>
         <div className="my-5 flex flex-col gap-2">
