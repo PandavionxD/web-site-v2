@@ -36,3 +36,4 @@ export const data = [
     icons: <IoMdContact/>
   },
 ];
+
