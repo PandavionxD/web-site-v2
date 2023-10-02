@@ -73,7 +73,7 @@ export const RedesSociales = [
     id: 4,
     icono: <BsLinkedin />,
     description: "Linkedin",
-    url:'www.linkedin.com/in/alex-daniel-artica-rivera-9751b915b'
+    url:'https://www.linkedin.com/in/alex-daniel-artica-rivera-9751b915b'
   },
 ];
 

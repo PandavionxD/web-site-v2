@@ -2,16 +2,11 @@ import { useState } from "react";
 import { MdAdd } from "react-icons/md";
 import { IoMdRemove } from "react-icons/io";
 import { ServiceData } from "./ServiceData";
-// ICONOS DE REACT
-import { AiOutlineLaptop } from "react-icons/ai";
-import { FaReact } from "react-icons/fa";
-import { BiLogoTailwindCss } from "react-icons/bi";
-import { BiLogoRedux } from "react-icons/bi";
 import { CardService } from "../components/CardService";
 
 export const ServicePage = () => {
   return (
-    <div className="h-[calc(100vh-9rem)] flex flex-col gap-8 " >
+    <div className="min-h-[calc(100vh-9rem)] h-auto flex flex-col gap-8 " >
       <div className="mt-8" >
         <h2 className="text-center text-[2rem] text-indigo-600 font-semibold mt-6 dark:text-purple-600 ">
           Servicios
