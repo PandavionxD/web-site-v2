@@ -11,7 +11,7 @@ export const ContactPage = () => {
   return (
     <>
       <section className="w-full h-[calc(100vh-8rem)] grid md:grid-cols-2 gap-12 place-content-center ">
-        <article>
+        <article className="animate__animated animate__fadeInLeft" >
           <Title
             title="Ponerse en contacto"
             description="¡Envíame un mensaje a través de cualquiera de los enlaces a continuación!"
@@ -29,7 +29,7 @@ export const ContactPage = () => {
             ))}
           </div>
         </article>
-        <article className="p-4 hidden md:block ">
+        <article className="p-4 hidden md:block animate__animated  animate__fadeInRight ">
           {darkToggle ? (
             <img src={ContactPurple} alt="contacto purpura" />
           ) : (
