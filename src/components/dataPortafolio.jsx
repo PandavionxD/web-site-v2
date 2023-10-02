@@ -11,14 +11,14 @@ export const DataPortafolio = [
       img: journall,
       title:'Journall App',
       description:'Proyecto Web de Diario con autentificación de usuarios y validacion de datos con Formik, con una base de datos NoSQL, almacenado de datos en FireStore.',
-      demo:'https://journall-app-v1.netlify.app/auth/login',
+      demo:'https://journall-app-v1.netlify.app/',
       github:'https://github.com/PandavionxD'
     },{
       id:2,
       img: heroes,
       title:'Heroes App',
       description:'Proyecto web para practicar con las rutas, donde tambien tendrás un filtro para buscar los heroes o coincidencias con la busqueda.',
-      demo:'https://react-heroes-appv1.netlify.app/login',
+      demo:'https://react-heroes-appv1.netlify.app/',
       github:'https://github.com/PandavionxD'
     },{
       id:3,
